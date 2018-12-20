@@ -1,0 +1,127 @@
+
+/*Gives outer border with title*/
+#container	{
+	display:inline-block;
+	width:1200px;
+	height:550px;
+	background-color:#ADD8E6;
+	border: 3px solid gray;
+	padding:3em;
+}
+/*Menu bar format*/	
+#menuBar	{
+	width:99%;
+	height:460px;
+	background-color:#e6e6e6;
+	border: 3px solid gray;
+	padding:.3em;
+	text-align: center;	
+	
+}	
+	
+/*Sets formatting, info, or link for video box*/
+#video	{
+	float:left;
+	width:43%;
+	height:330px;
+	background-color:#FFFFFF;
+	border: 3px solid gray;
+	font-family:arial;
+	padding:.5em;
+	color:black;
+}
+		
+/*Sets formatting, info, or link for written review box*/
+#written	{
+	float:left;
+	width:53.2%;
+	height:330px;
+	background-color:#FFFFFF;
+	border: 3px solid gray;
+	font-family:arial;
+	padding:.5em;
+	color:black;
+}
+
+/*Sets formatting, info, or link for welcome box*/
+#welcome	{
+	margin: auto;
+	width:53%;
+	height:300px;
+	background-color:#FFFFFF;
+	border: 3px solid gray;
+	font-family:arial;
+	padding:.5em;
+	color:black;
+}
+
+/*Centers text*/
+h3 {
+	text-align:center;
+}
+
+/*Unbolds welcome text*/
+h1 {
+	font-weight: normal;
+}
+
+/*Sets format for titles*/
+h2 {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	text-align:center;
+	line-height: 15.4px;
+}
+
+/*Sets format for menu bar*/	
+tr {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+	vertical-align:middle;
+}
+
+/*Sets format for menu row*/
+th {
+	padding: 5px;
+}
+
+/*Sets format for table*/
+table {
+	
+    border-spacing: 10px;
+    border-collapse: separate;
+	padding: 30px;
+    border-spacing: 10px 0px;
+}
+
+/*Increases font size*/
+p {
+	font-size: 40px
+}
+
+/* unvisited link */
+a:link {
+    color: purple;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+
+/* mouse over link */
+a:hover {
+    color: green;
+}
+
+/* selected link */
+a:active {
+    color: red;
+}
