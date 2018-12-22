@@ -10,10 +10,10 @@ body	{
 }
 
 img {
-	max-width: 58%;
+	max-width: 55%;
 	height: auto;
 	border: 3px solid gray;
-	padding:.3em;
+	padding:.05em;
 }
 
 /*Menu bar format*/	
