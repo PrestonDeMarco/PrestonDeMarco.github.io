@@ -24,6 +24,7 @@ img {
 	border: 3px solid gray;
 	padding:.3em;
 	text-align: center;	
+	min-width:800px
 	
 }	
 	
@@ -61,15 +62,38 @@ img {
 	font-family:arial;
 	padding:.5em;
 	color:black;
+	max-width:800px
+}
+
+#projectsSilver	{
+	width:99%;
+	height:2200px;
+	background-color:#e6e6e6;
+	border: 3px solid gray;
+	padding:.3em;
+	text-align: center;	
+	
+}
+
+#projects	{
+	margin: auto;
+	width:70%;
+	height:2000px;
+	background-color:#FFFFFF;
+	border: 3px solid gray;
+	font-family:arial;
+	padding:.5em;
+	color:black;
 }
 
 h4 {
 	text-align:left;
+	
 }
 
 /*Centers text*/
 h3 {
-	text-align:left;
+	text-align:center;
 }
 
 h2 {
